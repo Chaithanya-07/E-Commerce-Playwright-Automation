@@ -1,0 +1,29 @@
+{
+  "name": "e-commerce-playwright-automation",
+  "version": "1.0.0",
+  "description": "Page Object Model Playwright test framework for the QADemo e-commerce application - UI, API and hybrid flows across Chromium, Firefox and WebKit.",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:api": "playwright test --project=api",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "allure:generate": "allure generate ./allure-results",
+    "allure:open": "allure open ./allure-report"
+  },
+  "keywords": [
+    "playwright",
+    "playwright-test",
+    "page-object-model",
+    "e2e-testing",
+    "qa-automation"
+  ],
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.2",
+    "allure": "^3.18.0",
+    "allure-playwright": "^3.12.2"
+  }
+}

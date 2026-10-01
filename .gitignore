@@ -1,0 +1,23 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Allure - generated report artifacts, never commit these.
+# allure-results/ holds raw per-test result JSON written by the reporter;
+# allure-report/ holds the generated human-readable report.
+/allure-results/
+/allure-report/
+
+# Saved login state (cookies + localStorage) written by auth/auth.setup.js.
+# It is a live session credential - never commit or print it.
+/.auth/
+
+# Real credentials - never commit these.
+# Commit test-data/users.example.json instead.
+test-data/users.json
+.env

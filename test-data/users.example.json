@@ -1,0 +1,7 @@
+{
+  "validUser": {
+    "username": "REPLACE_WITH_USERNAME_OR_EMAIL",
+    "displayName": "REPLACE_WITH_NAME_SHOWN_IN_NAVBAR",
+    "password": "REPLACE_WITH_PASSWORD"
+  }
+}

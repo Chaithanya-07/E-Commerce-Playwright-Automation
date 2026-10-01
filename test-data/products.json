@@ -1,0 +1,44 @@
+{
+  "inStock": {
+    "bluetoothSpeaker": {
+      "id": 4,
+      "name": "Bluetooth Speaker",
+      "slug": "bluetooth-speaker",
+      "price": "$159.99"
+    },
+    "fitnessTracker": {
+      "id": 5,
+      "name": "Fitness Tracker",
+      "slug": "fitness-tracker",
+      "price": "$89.99"
+    },
+    "laptopBackpack": {
+      "name": "Laptop Backpack",
+      "slug": "laptop-backpack",
+      "price": "$49.99"
+    }
+  },
+  "outOfStock": {
+    "batmanTshirt": {
+      "name": "Batman Tshirt",
+      "slug": "batman-tshirt"
+    },
+    "deskOrganizer": {
+      "name": "Desk Organizer",
+      "slug": "desk-organizer"
+    }
+  },
+  "checkout": {
+    "shipping": {
+      "firstName": "Chaithanya",
+      "lastName": "Kurra",
+      "address": "123 Test Street, Automation City, 500081"
+    },
+    "payment": {
+      "cardNumber": "4242 4242 4242 4242",
+      "expiry": "12/30",
+      "cvv": "123",
+      "cardholderName": "Chaithanya Kurra"
+    }
+  }
+}
